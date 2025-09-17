@@ -4,7 +4,7 @@
 👌 I am a software developer
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=remilagorce&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats&stats_format=bytes)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=remilagorce&stats_format=bytes)
 
 
 <!--
