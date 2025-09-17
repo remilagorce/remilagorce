@@ -2,6 +2,8 @@
 
 🔥 My name is Rémi, fullstack developer from France
 
+👀 Find more about me and my projects [here](google.com)
+
 💬 Ask me about anything [here](mailto:remi.lagorce@outlook.fr)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=remilagorce&stats_format=bytes)
