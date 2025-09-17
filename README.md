@@ -18,7 +18,7 @@ Main dev skills :
 ➡️ RestAPI
 
 
-Currently working on (personal project) : [visit website](https://www.go-luka.com/)
+Currently working on (personal side project) : [visit website](https://www.go-luka.com/)
 
 ![Aperçu du site](assets/luka.gif)
 
