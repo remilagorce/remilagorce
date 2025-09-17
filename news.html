@@ -1,9 +1,10 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Sep 17 2025 09:15:31 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="68ca7a2c0a1b8044811f1de0" data-wf-site="68ca7a2a0a1b8044811f1d70" lang="en">
+<html data-wf-page="68ca7a2c0a1b8044811f1def" data-wf-site="68ca7a2a0a1b8044811f1d70" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Fortress - Webflow HTML Website Template</title>
-  <meta content="Fortress - Webflow HTML Website Template" name="description">
+  <title>News | Fortress</title>
+  <meta content="News | Fortress" property="og:title">
+  <meta content="News | Fortress" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -34,7 +35,7 @@
           <a href="#" class="nav__button w-inline-block"><img src="images/burger.svg" loading="lazy" alt="menu" class="burger__icon"></a>
         </div>
         <div class="top-bar">
-          <div class="text-regular hidden-phone">Rémi Lagorce&lt;</div>
+          <div class="text-regular hidden-phone">News</div>
           <a href="#" class="button w-inline-block">
             <div class="text-large">Contact</div>
           </a>
@@ -48,7 +49,7 @@
               </a>
             </div>
             <div class="nav__main">
-              <a href="index.html" aria-current="page" class="nav__link w-inline-block w--current">
+              <a href="index.html" class="nav__link w-inline-block">
                 <div class="text-regular c2-60">01</div>
                 <div class="text-large c2">Home</div>
               </a>
@@ -60,7 +61,7 @@
                 <div class="text-regular c2-60">03</div>
                 <div class="text-large c2">Projects</div>
               </a>
-              <a href="news.html" class="nav__link w-inline-block">
+              <a href="news.html" aria-current="page" class="nav__link w-inline-block w--current">
                 <div class="text-regular c2-60">04</div>
                 <div class="text-large c2">News</div>
               </a>
@@ -78,130 +79,41 @@
         </nav>
       </div>
     </header>
-    <main class="sections">
-      <section class="hero">
-        <div class="container">
-          <div class="hero__content">
-            <div class="huge-card__flex">
-              <h4 class="heading-huge c2">Rémi Lagorce.<br>Fullstack developer.</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="spacer-large"></div>
-      <section class="statement">
+    <main class="sections top-padding">
+      <section class="intro">
         <div class="container">
           <div class="max-width-regular">
-            <div class="text-wrapper for-statement-home">
-              <p class="text-huge">We are builders. Our passion for construction is at the heart of everything we do. We build spaces for scientists to research cures, for students to learn and grow, for companies to innovate, and for locals to live healthier. Our work helps transform communities.</p>
-            </div>
+            <h1 class="heading-huge">News</h1>
           </div>
         </div>
       </section>
-      <div class="spacer-large"></div>
-      <section class="projects">
+      <div class="spacer-small"></div>
+      <section class="articles">
         <div class="container">
           <div class="max-width-regular">
-            <div class="projects__content">
-              <div class="title-section">
-                <h2 class="heading-large"><span class="title-section__arrow">→</span> Featured projects</h2>
-              </div>
-              <div class="projects__cms w-dyn-list">
-                <div role="list" class="projects__list w-dyn-items">
-                  <div role="listitem" class="projects__item w-dyn-item">
-                    <a href="#" class="projects__link w-inline-block">
-                      <div class="projects__thumb"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="thumbnail-project w-dyn-bind-empty">
-                        <div class="tag">
-                          <div class="text-small w-dyn-bind-empty"></div>
-                        </div>
+            <div class="articles__cms w-dyn-list">
+              <div role="list" class="articles__list w-dyn-items">
+                <div role="listitem" class="articles__item w-dyn-item">
+                  <a href="#" class="articles__link w-inline-block">
+                    <div class="articles__thumb"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="thumbnail-articles w-dyn-bind-empty">
+                      <div class="tag">
+                        <div class="text-small w-dyn-bind-empty"></div>
                       </div>
-                      <div class="projects__title">
-                        <h3 class="heading-medium w-dyn-bind-empty"></h3>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="empty-state w-dyn-empty">
-                  <div class="text-regular">No items found.</div>
+                    </div>
+                    <div class="articles__title">
+                      <h2 class="heading-medium w-dyn-bind-empty"></h2>
+                    </div>
+                  </a>
                 </div>
               </div>
-              <div class="spacer-small"></div>
-              <a href="projects.html" class="button-outlined w-inline-block">
-                <div class="text-large">All projects</div>
-              </a>
+              <div class="empty-state w-dyn-empty">
+                <div>No items found.</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <div class="spacer-large"></div>
-      <section class="overview">
-        <div class="container">
-          <div class="overview__content">
-            <div data-poster-url="https://cdn.prod.website-files.com/66f1b912fcb39089546e3856%2F66f1f69b84072521bdbe9748_13656235-hd_1920_1080_60fps-poster-00001.jpg" data-video-urls="videos/13656235-hd_1920_1080_60fps-transcode.mp4,videos/13656235-hd_1920_1080_60fps-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="overview__video w-background-video w-background-video-atom"><video id="40b25ee1-42a7-36df-e9da-d9b56301a7f2-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/66f1b912fcb39089546e3856%2F66f1f69b84072521bdbe9748_13656235-hd_1920_1080_60fps-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                <source src="videos/13656235-hd_1920_1080_60fps-transcode.mp4" data-wf-ignore="true">
-                <source src="videos/13656235-hd_1920_1080_60fps-transcode.webm" data-wf-ignore="true">
-              </video></div>
-            <div class="overview__card">
-              <h2 class="heading-huge">Why us?</h2>
-              <div class="text-wrapper for-overview">
-                <p class="text-xlarge c1-75">We have the ability to go wherever our clients need, delivering in over 15 states, and Our team is composed of the best and brightest in the industry.</p>
-              </div>
-              <div class="overview__inner-cards">
-                <div id="w-node-_6c055845-c79e-79d9-5fcb-3698146b5c9f-811f1de0" class="card-b">
-                  <div class="card-b__top"><img src="images/mark.svg" loading="lazy" alt="" class="icon-regular">
-                    <h3 class="heading-small">Service excellence</h3>
-                  </div>
-                  <p class="text-regular c1-75">We approach construction differently, delivering value beyond our client’s expectations.</p>
-                </div>
-                <div class="card-b">
-                  <div class="card-b__top"><img src="images/mark.svg" loading="lazy" alt="" class="icon-regular">
-                    <h3 class="heading-small">Relationship-driven</h3>
-                  </div>
-                  <p class="text-regular c1-75">We employ an open and collaborative approach with our partners.</p>
-                </div>
-              </div>
-            </div>
-            <div id="w-node-_92f0e494-3aff-ce5a-cbcb-d963831e1cda-811f1de0" class="overview__stats"><img src="images/overview-img_1overview-img.webp" loading="lazy" alt="fortress" class="absolute-img">
-              <div class="huge-card__flex">
-                <h4 class="heading-huge c2">We succeed <br>with teamwork.</h4>
-                <a href="about.html" class="button w-inline-block">
-                  <div class="text-large">About</div>
-                </a>
-              </div>
-              <div class="overview__stats-cards">
-                <div class="card-a">
-                  <div class="text-huge for-card-a"># 1</div>
-                  <div class="card-a__bottom">
-                    <h3 class="heading-small c3">Retail Contractor</h3>
-                    <div class="text-regular c2-80">by ENR New York in 2024</div>
-                  </div>
-                </div>
-                <div class="card-a">
-                  <div class="text-huge for-card-a">100</div>
-                  <div class="card-a__bottom">
-                    <h3 class="heading-small c3">Best Places to Work</h3>
-                    <div class="text-regular c2-80">by Crain&#x27;s  New York in 2024</div>
-                  </div>
-                </div>
-                <div class="card-a">
-                  <div class="text-huge for-card-a"># 5</div>
-                  <div class="card-a__bottom">
-                    <h3 class="heading-small c3">Top 80 Retails Giants</h3>
-                    <div class="text-regular c2-80">by BD+C Magazine in 2024</div>
-                  </div>
-                </div>
-                <div class="card-a">
-                  <div class="text-huge for-card-a">Gold</div>
-                  <div class="card-a__bottom">
-                    <h3 class="heading-small c3">National Safety Award</h3>
-                    <div class="text-regular c2-80">by ABC in 2023</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
     <footer class="footer">
       <div class="container">
@@ -214,7 +126,7 @@
               <a href="projects.html" class="footer__nav-link w-inline-block">
                 <div class="text-xlarge">Projects</div>
               </a>
-              <a href="news.html" class="footer__nav-link w-inline-block">
+              <a href="news.html" aria-current="page" class="footer__nav-link w-inline-block w--current">
                 <div class="text-xlarge">News</div>
               </a>
               <a href="careers.html" class="footer__nav-link w-inline-block">
