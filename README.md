@@ -2,6 +2,17 @@
 
 🔥 My name is Rémi, fullstack developer from France
 
+❤️‍🔥 Tech and business enthusiast
+
+🧘‍♂️ Stoic, rationalist, and spiritualist. Constantly striving for personal growth, self-mastery.
+🏅 Always looking for new challenges.
+
+Main dev skills : 
+
+➡️ Nextjs
+➡️ Nodejs
+➡️ RestAPI
+
 👀 Find more about me and my projects [here](google.com)
 
 💬 Ask me about anything [here](mailto:remi.lagorce@outlook.fr)
