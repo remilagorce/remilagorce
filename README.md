@@ -1,8 +1,8 @@
 ## Hello 👋
 
-🔥 My name is Rémi, I'm from France
-👌 I am a software developer
+🔥 My name is Rémi, fullstack developer from France
 
+💬 Ask me about anything [here](mailto:remi.lagorce@outlook.fr)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=remilagorce&stats_format=bytes)
 
