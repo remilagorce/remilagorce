@@ -20,7 +20,7 @@ Main dev skills :
 
 Currently working on (personal project) : [visit website](https://www.go-luka.com/)
 
-![Aperçu du site](assets/luka.png)
+![Aperçu du site](assets/luka.gif)
 
 
 👀 Find more about me and my projects [here](google.com)
