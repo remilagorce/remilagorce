@@ -23,7 +23,7 @@ Currently working on (personal side project) : [visit website](https://www.go-lu
 ![Aperçu du site](assets/luka.gif)
 
 
-👀 Find more about me and my projects [here](google.com)
+👀 Find more about me and my projects [here]([google.com](https://remilagorce.github.io/remilagorce/))
 
 
 
