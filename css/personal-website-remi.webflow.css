@@ -2272,6 +2272,12 @@ figcaption {
     padding: var(--padding--pd-04);
   }
 
+  .text-wrapper.for-statement-home {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .footer__legal {
     padding-top: var(--padding--pd-04);
     padding-bottom: var(--padding--pd-04);
