@@ -140,6 +140,25 @@
   --padding--pd-01: .25rem;
 }
 
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
 body {
   color: var(--color--c1);
   font-family: InterTight, sans-serif;
@@ -699,12 +718,17 @@ figcaption {
 }
 
 .text-large {
+  margin-top: 0;
   font-size: 1.25rem;
   line-height: 150%;
 }
 
 .text-large.c2 {
   color: var(--color--c2);
+}
+
+.text-large.under-construction {
+  text-align: center;
 }
 
 .text-regular {
@@ -948,7 +972,7 @@ figcaption {
 .button {
   padding-right: var(--padding--pd-09);
   padding-left: var(--padding--pd-09);
-  background-color: var(--color--c3);
+  background-color: var(--color--c1);
   color: var(--color--c2);
   border-radius: 4rem;
   justify-content: center;
@@ -960,7 +984,7 @@ figcaption {
 }
 
 .button:hover {
-  background-color: var(--color--c1);
+  background-color: var(--color--c3);
 }
 
 .card-a {
@@ -1005,13 +1029,13 @@ figcaption {
 
 .card-b {
   padding: var(--padding--pd-06);
-  grid-column-gap: 3rem;
-  grid-row-gap: 3rem;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
   background-color: var(--color--c1-04);
   border-radius: 2rem;
   flex-flow: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   display: flex;
 }
@@ -1520,6 +1544,7 @@ figcaption {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
+  margin-bottom: 60px;
   display: grid;
 }
 
@@ -1705,7 +1730,7 @@ figcaption {
 
 .social-icon {
   object-fit: contain;
-  width: 1.25rem;
+  width: 2.7rem;
 }
 
 .icon-small {
@@ -1725,6 +1750,109 @@ figcaption {
 
 .heading {
   text-align: center;
+}
+
+.image-2, .image-3 {
+  width: auto;
+  max-width: none;
+  height: 90px;
+}
+
+.div-block {
+  grid-column-gap: 21px;
+  grid-row-gap: 21px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.image-4 {
+  height: 90px;
+}
+
+.carousel {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.logo-carousel-wrap {
+  backface-visibility: hidden;
+  background-color: #0000;
+  flex: none;
+  width: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: perspective(1px);
+}
+
+.logo-carousel {
+  grid-column-gap: 1rem;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+}
+
+.logo-carousel-item {
+  flex: none;
+  padding: 1rem;
+}
+
+.logo-link {
+  filter: grayscale();
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo-carousel-clone {
+  grid-column-gap: 1rem;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+}
+
+.copy-animation {
+  height: 0;
+}
+
+.small-instructions {
+  font-size: 1rem;
+}
+
+.instructions {
+  color: #33333387;
+  text-align: center;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: Inconsolata, monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2em;
 }
 
 @media screen and (max-width: 991px) {
@@ -2442,10 +2570,15 @@ figcaption {
   .social-icon {
     width: 1.25rem;
   }
+
+  .small-instructions {
+    line-height: 1em;
+  }
 }
 
-#w-node-_94dd0adb-864f-a5d2-45ab-cb5c21f7142b-811f1de0, #w-node-_94dd0adb-864f-a5d2-45ab-cb5c21f71432-811f1de0, #w-node-_94dd0adb-864f-a5d2-45ab-cb5c21f71439-811f1de0, #w-node-_57452476-3bfa-e451-7fd9-9e02f8aff0ad-811f1de0, #w-node-_6825b3fd-4c45-a728-a0e0-68dbf10832ca-811f1de0, #w-node-_94dd0adb-864f-a5d2-45ab-cb5c21f71440-811f1de0 {
+#w-node-_94dd0adb-864f-a5d2-45ab-cb5c21f7142b-811f1de0, #w-node-c37e2486-2253-86f6-c9f4-3f2c6db04a65-811f1de0, #w-node-_61e1d0e5-9764-a6bc-f7e6-bb100c2b9e9b-811f1de0, #w-node-_9db98f49-35ac-4782-daae-337a8f000596-811f1de0, #w-node-_7a884cca-db23-c3ff-7757-2ac2e87f94b6-811f1de0, #w-node-_10b290a1-a907-f9b2-109c-5aed61eaa2de-811f1de0 {
   grid-area: span 1 / span 1 / span 1 / span 1;
+  place-self: auto;
 }
 
 
