@@ -1,6 +1,6 @@
 ## Hello 👋
 
-🔥 My name is Rémi, fullstack developer from France
+🔥 My name is Rémi from France
 
 ❤️‍🔥 Tech and business enthusiast
 
