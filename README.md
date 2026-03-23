@@ -4,7 +4,7 @@
 
 ❤️‍🔥 Tech and business enthusiast
 
-🧘‍♂️ Stoic, rationalist, and spiritualist. Constantly striving for personal growth, self-mastery.
+🧘‍♂️ Stoic, rationalist. Constantly striving for personal growth, self-mastery.
 
 🏅 Always looking for new challenges.
 
