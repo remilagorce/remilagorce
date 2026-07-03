@@ -9,15 +9,6 @@
 🏅 Always looking for new challenges.
 
 
-Main dev skills : 
-
-➡️ Nextjs
-
-➡️ Nodejs
-
-➡️ RestAPI
-
-
 Currently working on (personal side project) : [visit website](https://www.go-luka.com/)
 
 ![Aperçu du site](assets/luka.gif)
